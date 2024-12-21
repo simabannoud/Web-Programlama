@@ -1,0 +1,16 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*",
+  "EmailSettings": {
+    "SmtpServer": "smtp.yourserver.com",
+    "Port": 587,
+    "SenderEmail": "your-email@domain.com",
+    "SenderPassword": "your-password"
+  }
+}
