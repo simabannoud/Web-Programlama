@@ -1,0 +1,23 @@
+@model IEnumerable<YourProject.Models.Service>
+
+@{
+    ViewData["Title"] = "Hizmetler";
+}
+
+<h1>Hizmetlerimiz</h1>
+
+<div class="row">
+    @foreach (var service in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@service.Name</h5>
+                    <p class="card-text">Süre: @service.Duration dakika</p>
+                    <p class="card-text">Fiyat: @service.Price TL</p>
+                </div>
+            </div>
+        </div>
+    }
+}
+</div>
